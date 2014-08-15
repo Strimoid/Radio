@@ -1,0 +1,90 @@
+/*******************************
+            Global
+*******************************/
+
+html,
+body {
+    font-size: 15px;
+    height: 100%;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    color: #555555;
+    text-rendering: optimizeLegibility;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+.ui.header {
+    font-family: 'Source Sans Pro', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/*******************************
+            Global
+*******************************/
+
+/*-------------------
+        Grid
+--------------------*/
+
+#feed .grid {
+    height: 100%;
+}
+
+#feed > .grid > .column {
+    height: 100%;
+}
+
+#feed .page {
+    float: right;
+    margin-top: 0.9em;
+}
+
+#feed .middle.column {
+    padding: 1em 2em;
+}
+
+#feed .middle.column h2 {
+    margin-top: 0em;
+}
+/*rtl:ignore*/
+#feed .right.column {
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.list .content {
+    width: 85%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .flex {
+    height: 95vh;
+}
+
+.right .flex {
+    height: 100vh;
+}
+
+.ui.menu {
+    margin: 0;
+    border-radius: 0;
+}
+
+.ui.selection.list {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+#video {
+    width: 100%;
+    flex-grow: 1;
+}
